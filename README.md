@@ -22,7 +22,7 @@ This week's lab is meant to give you a very basic introduction to the Python cod
 
 ### exercise 1
 
-In *apputil.py*, create a function `palindrome(word)` that receives a string and returns `True` or `False` depending on whether the word is a palindrome.  A palindrome is a word, phrase, or sequence that reads the same backward as forward. Examples of palindromes are `racecar` and `Nurses Run`. This function can be case *insensitive*, and it should ignore spaces and punctuation.
+In *apputil.py*, create a function `palindrome(word)` that receives a string and returns `True` or `False` depending on whether it is a palindrome.  A palindrome is a word, phrase, or sequence that reads the same backward as forward. Examples of palindromes are `racecar` and `Nurses Run`. This function can be case *insensitive*, and it should ignore spaces and punctuation.
 
 - Take a look at the `.lower()` and `.replace(",")` methods on a string.
 - Think about how you can reverse a string
@@ -58,11 +58,12 @@ Write a function `parentheses(sequence)` that takes a string and returns `True` 
 The environment for this week is built with the following environment.yml:
 
 ```yml
-name: coding-exercise
+name: week-1
 dependencies:
   - python=3.11
   - pip
   - pip:
+    - ipykernel  # for Jupyter Notebook
     - streamlit
     - pandas
     - numpy
