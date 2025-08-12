@@ -2,6 +2,8 @@
 
 **For the exercises, only update the *apputil.py* file or the *app.py* file.** Updating any other files may affect your autograder feedback.
 
+Give [Python Tutor](https://pythontutor.com/) a try! It can be a helpful tool for debugging Python :).
+
 ## exercise 1
 
 In *apputil.py*, create a function `palindrome(word)` that receives a string and returns `True` or `False` depending on whether it is a palindrome.  A palindrome is a word, phrase, or sequence that reads the same backward as forward. Examples of palindromes are `racecar` and `Nurses Run`. This function can be case *insensitive*, and it should ignore spaces and punctuation.
