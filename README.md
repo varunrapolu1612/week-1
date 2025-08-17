@@ -2,7 +2,7 @@
 
 This week's lab is meant to give you a very basic introduction to the Python coding environment. In particular, we will focus on the following:
 
-- JupyterLab and Markdown
+- Jupyter and Markdown
 - Variables and Data Types
 - Operators and Logic
 - Packages, Modules, and Objects
