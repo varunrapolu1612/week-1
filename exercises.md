@@ -48,7 +48,7 @@ Write a function `parentheses(sequence)` that takes a string and returns `True` 
 
 ---
 
-# exploratory exercises
+# exploratory exercises (optional)
 
 For this exploration, you'll only need to update the bottom of the lab notebook. If you like, you can also explore Streamlit by incorporating this function the *app\.py* file.
 
