@@ -3,7 +3,7 @@
 There are two types of exercise in this course:
 
 - autograded
-- exploratory
+- exploratory *(optional)*
 
 **You are expected to complete all of the autograded exercises**, as these are the only ones that will be checked by the autograder and reviewed by the TA. Exploratory exercises (or "explorations") are optional, and responses for these will only be reviewed upon request.
 
