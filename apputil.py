@@ -7,7 +7,7 @@ def palindrome(word):
     return True
 
 # Exercise -2:
-
+'''
 def Brackets(x):
     count = 0
     for char in x:
@@ -18,3 +18,4 @@ def Brackets(x):
         if count < 0:
             return False #closing > opening
     return count == 0  #Done!
+'''
