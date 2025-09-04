@@ -12,7 +12,7 @@ def palindrome(word):
         reversed_word = j + reversed_word
 
     if cleaned == reversed_word:
-        return Trun
+        return True
     else:
         return False
 
