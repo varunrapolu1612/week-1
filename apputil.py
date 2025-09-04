@@ -1,8 +1,16 @@
 def palindrome(word):
-    word = word.replace(" ", "")
     word = word.lower()
-    n = len(word)
-    for i in range(n // 2):
-        if word[i] != word[n - i - 1]:
-            return False
-    return True
+    
+    cleaned = ""
+    for i in word:
+        if i.isalnum():
+            cleaned += i
+    
+    reversed_word = ""
+    for j in cleaned:
+        reversed_word = j + reversed_word
+
+    if cleaned == reversed_word:
+        return "Palindrome"
+    else:
+        return "Not Palindrome"
