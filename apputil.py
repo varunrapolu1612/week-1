@@ -12,9 +12,9 @@ def palindrome(word):
         reversed_word = j + reversed_word
 
     if cleaned == reversed_word:
-        return "Palindrome"
+        return Trun
     else:
-        return "Not Palindrome"
+        return False
 
 #Exercise - 2
 def parentheses(sequence):
