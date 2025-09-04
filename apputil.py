@@ -1,4 +1,4 @@
-Exercise - 1
+#Exercise - 1
 def palindrome(word):
     word = word.lower()
     
@@ -16,7 +16,7 @@ def palindrome(word):
     else:
         return "Not Palindrome"
 
-Exercise - 2
+#Exercise - 2
 def parentheses(sequence):
     count = 0
     for i in sequence:
